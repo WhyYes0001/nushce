@@ -1091,8 +1091,8 @@ margin-left: 10rem ;
 
 @media screen and (min-width: 576px) {
   .home__container{
-    margin-right: 2rem;
-    margin-left: 2rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
 
   }
   .home__description {
@@ -1126,12 +1126,16 @@ margin-left: 10rem ;
     grid-template-columns: repeat(2, 1fr);
   }
 }
+@media screen and (max-width: 1390px) {
+  .home__container{
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }}
 
 @media screen and (min-width: 767px) {
   .home__container{
-    margin-right: 5rem;
-    margin-left: 5rem;
-
+    margin-right: 0rem;
+    margin-left: 0rem;
   }
   body {
     margin: 0;
@@ -1201,9 +1205,8 @@ margin-left: 10rem ;
 
 @media screen and (min-width: 992px) {
   .home__container{
-    margin-right: 6rem;
-    margin-left: 6rem;
-
+    margin-right: 13rem;
+    margin-left: 13rem;
   }
   .container {
     margin-left: auto;
